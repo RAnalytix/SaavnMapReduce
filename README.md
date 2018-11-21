@@ -32,8 +32,8 @@ Each tuple consists of the song ID of the streamed song, the user ID of the user
  
 
 Data
-- The file https://s3.amazonaws.com/mapreduce-bde/part-00000 contains one month(December) of stream records. Please note that this file is huge (~44GB) and will consume a lot of your internet bandwidth if you choose to download it onto your local machine.
+- A file place in Amazon S3 bucket contains one month(December) of stream records. Please note that this file is huge (~44GB) and will consume a lot of your internet bandwidth if you choose to download it onto your local machine.
 
-- The file https://s3.amazonaws.com/mapreduce-bde/trending_data_daily.csv contains the trending songs for each day of December, as calculated by Saavn. You may compare your output with these and improve your algorithm to obtain a better match.
+- Another set of files is provided in S3 bucket and contains the trending songs for each day of December, as calculated by Saavn. You may compare your output with these and improve your algorithm to obtain a better match.
 
-- The file https://s3.amazonaws.com/mapreduce-bde/saavn_sample_data.txt contains a sample of 10 million stream records from the original dataset. You may use this to run simple jobs and get an idea of the data.
+- One more file which contains a sample of 10 million stream records from the original dataset. You may use this to run simple jobs and get an idea of the data.
